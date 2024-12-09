@@ -1,0 +1,33 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  padding: 20px;
+
+  mat-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  button[type="submit"] {
+    margin-top: 16px;
+  }
+
+  mat-card-actions {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+  }
+}
